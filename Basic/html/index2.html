@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <div class="error" id="usernameError"></div>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <div class="error" id="passwordError"></div>
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword">
+        <div class="error" id="confirmPasswordError"></div>
+        
+        <button type="button" id="registerButton" disabled>Register</button>
+    </form>
+    <div class="success" id="successMessage"></div>
+    
+    <script src="../js/main2.js"></script>
+</body>
+</html>
